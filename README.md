@@ -3,15 +3,20 @@ SECURE DATA HIDING IN IMAGES USING STEGANOGRAPHY
 ![image](https://github.com/user-attachments/assets/57d30d7c-bf61-42ee-8f4d-e63ad3172716)
 
 Description
+
 The Image-Based Steganography Tool is a Python-powered application that enables users to securely hide messages within images using AES encryption and LSB (Least Significant Bit) steganography. The tool provides both encoding and decoding functionality through an intuitive Streamlit-based UI.
 
 ⭐ Features
 🔐 AES Encryption: Encrypts messages using AES-CBC mode before embedding them in images.
+
 🖼️ LSB Steganography: Hides encrypted messages in images at the pixel level.
+
 📤 Image Upload & Download: Allows users to upload images, encode/decode messages, and download encrypted images.
+
 🛠 User-Friendly Interface: Built with Streamlit for a seamless experience.
 
  Installation
+ 
 Clone this repository:
 git clone https://github.com/your-username/ACITE-PROJECT-Steganography.git
 cd ACITE-PROJECT-Steganography.git
@@ -23,12 +28,14 @@ Run the Application
 streamlit run stego.py
 
 Usage
+
 🔵 Encoding a Message
 Upload a PNG image.
 Enter your secret message.
 Provide a passcode (used for encryption & decryption).
 Click Encode & Save Image.
 Download the newly encrypted image.
+
 🟢 Decoding a Message
 Upload an encrypted image.
 Enter the correct passcode.
